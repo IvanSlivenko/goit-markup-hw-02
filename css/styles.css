@@ -1,6 +1,7 @@
 :root{
     --primary-text-kolor:#212121 ;
     --second-text-kolor:#757575 ;
+    --color-current: #2196f3;
 
 }
 
@@ -17,6 +18,44 @@ body {
     font-weight: bold;
     text-decoration: none;
 }
+.nav-logo-left{
+    font-family:"Raleway";
+    /* color:#000000; */
+    color: #2196F3;
+
+    font-size:26px ;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.nav-logo-reit{
+    font-family:"Raleway";
+    color:#000000;
+    /* color: #2196F3; */
+
+    font-size:26px ;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+
+.nav-logo-reitfooter{
+    font-family:"Raleway";
+    color:#ffffff;
+    /* color: #2196F3; */
+
+    font-size:26px ;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+
+.nav-list.current{
+    color: var(--color-current);
+
+}
 .nav-list {
   /* color: #212121; */
   color: var(--primary-text-kolor);
@@ -26,7 +65,8 @@ body {
 }
 .nav-list:hover,
 .nav-list:focus {
-  color: #2196f3;
+  /* color: #2196f3; */
+  color: var(--color-current) ;
 }
 .mailto,
 .tel {
@@ -37,7 +77,8 @@ body {
 .mailto:focus,
 .tel:hover,
 .tel:focus {
-  color: #2196f3;
+  /* color: #2196f3; */
+  color: var(--color-current) ;
 }
 
 
@@ -59,7 +100,8 @@ body {
 .button-one:hover,
 .button-one:focus {
   border: 0ch;
-  background: #2196f3;
+  /* background: #2196f3; */
+  background: var(--color-current) ;
   color: #ffffff;
 }
 
@@ -74,7 +116,8 @@ body {
   text-transform: uppercase;
 }
 .hero-button {
-  background: #2196f3;
+  /* background: #2196f3; */
+  background: var(--color-current) ;
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
