@@ -1,3 +1,9 @@
+:root{
+    --primary-text-kolor:#212121 ;
+    --second-text-kolor:#757575 ;
+
+}
+
 body {
   font-family: "Roboto";
   background: #ffffff;
@@ -12,7 +18,8 @@ body {
     text-decoration: none;
 }
 .nav-list {
-  color: #212121;
+  /* color: #212121; */
+  color: var(--primary-text-kolor);
   font-size: 14px;
   font-weight:500 ;
   text-decoration: none;
@@ -23,7 +30,8 @@ body {
 }
 .mailto,
 .tel {
-  color: #757575;
+  /* color: #757575 */
+  color: var(--second-text-kolor);
 }
 .mailto:hover,
 .mailto:focus,
@@ -43,7 +51,8 @@ body {
   font-size: 16px;
   font-weight: 500;
   background: #F5F4FA;
-  color: #212121;
+  /* color: #212121; */
+  color: var(--primary-text-kolor);
   border: 0px;
 }
 
@@ -80,12 +89,14 @@ body {
   font-weight: bold;
 }
 .benefits-paragraf{
-    color:#757575 ;
+    /* color:#757575 ; */
+    color: var(--second-text-kolor);
     font-size:14px;
   font-weight: 400;
 }
 .directions-title{
-    color: #212121;
+    /* color: #212121; */
+    color: var(--primary-text-kolor);
     font-size:36px ;
     font-weight:bold ;
 
@@ -106,13 +117,15 @@ body {
 
 }
 .our-teams-person{
-color:#212121 ;
+/* color:#212121 ; */
+color: var(--primary-text-kolor);
 font-size:16px ;
 font-weight:500;
 
 }
 .our-teams-position{
-    color:#757575 ;
+    /* color:#757575 ; */
+    color: var(--second-text-kolor);
     font-size:16 ;
     font-weight:400;  
 }
@@ -138,7 +151,8 @@ font-weight:500;
 
 }
 .footer-item-two{
-    opacity: 60%;   
+    /* opacity: 60%; */
+    color: rgba(100%,100%,100%,60%);   
 
 }
 /* galery */
@@ -152,13 +166,15 @@ font-weight:500;
     height:294px   
 }
 .galery-title{
-color: #212121;
+/* color: #212121; */
+color: var(--primary-text-kolor);
 font-size:18px ;
 font-weight:bold ;
 
 }
 .galery-Paragraf{
-color: #757575;
+/* color: #757575; */
+color: var(--second-text-kolor);
 font-size:16px ;
 font-weight:normal;
 
