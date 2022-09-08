@@ -35,15 +35,23 @@ body {
   background: var(--color-background-oun);
 
 }
+.nav-block{
+  display: block;
+  flex-direction: row;
+  background: yellow;
+}
 .nav-logo {
   font-family: "Raleway", sans-serif;
   color: var(--color-nav-logo);
+  
   
 
   font-size: 26px;
   font-weight: 700;
   text-decoration: none;
   letter-spacing: 0.03em;
+
+
 }
 .nav-logo-left {
   font-family: 'Raleway', sans-serif;
@@ -91,6 +99,8 @@ body {
   text-decoration: none;
   line-height: var(--lin-heit-seven);
   letter-spacing: 0.02em;
+
+ 
 }
 .nav-list:hover,
 .nav-list:focus {
@@ -118,7 +128,9 @@ body {
 .button-list,
 .list-type {
   list-style: none;
+  
 }
+
 
 .button-one {
   font-family: "Roboto", sans-serif;
