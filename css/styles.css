@@ -35,11 +35,7 @@ body {
   background: var(--color-background-oun);
 
 }
-.nav-block{
-  display: block;
-  flex-direction: row;
-  background: yellow;
-}
+
 .nav-logo {
   font-family: "Raleway", sans-serif;
   color: var(--color-nav-logo);
@@ -128,6 +124,7 @@ body {
 .button-list,
 .list-type {
   list-style: none;
+ 
   
 }
 
@@ -142,6 +139,13 @@ body {
   cursor: pointer;
   line-height: var(--lin-heit-five);
 
+}
+
+.nav-block{
+  display: block;
+  flex-direction: row;
+  background: yellow;
+  
 }
 
 .button-one:hover,
