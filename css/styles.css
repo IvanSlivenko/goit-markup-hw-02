@@ -380,32 +380,11 @@ margin-bottom: 60px;
 .button-list,
 .list-type {
   list-style: none;
- 
-  
 }
 
 
 
-.button-one {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  background: var(--color-bagraund-baton-one);
-  color: var(--primary-text-kolor);
-  border: 0px;
-  cursor: pointer;
-  line-height: var(--lin-heit-five);
 
-}
-
-
-.button-one:hover,
-.button-one:focus {
-  border: 0ch;
-  
-  background: var(--color-current);
-  color:var( --color-background-oun);
-}
 
 
 .hero-title {
@@ -708,8 +687,110 @@ margin-right:90px;
 .block-portfolio{
   outline: var(--border-big-conteiner);
 display: flex;
+justify-content: center;
   
 }
+
+.block-button-list{
+  outline: var(--border-block);
+  display: flex;
+  margin-top: 94px;
+  margin-bottom: 34px;
+}
+.button-listgalery{
+  list-style: none;
+  
+  display: flex;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  
+
+}
+.buton-itemgalery{
+  outline: var(--border-element);
+  display: flex;
+  margin-right: 8px;
+
+}
+.buton-itemgalery:last-child{
+  margin-right: 0px;
+}
+
+.button-one {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background: var(--color-bagraund-baton-one);
+  color: var(--primary-text-kolor);
+  border: 0px;
+  cursor: pointer;
+  line-height: var(--lin-heit-five);
+ 
+
+}
+
+.button-one:hover,
+.button-one:focus {
+  border: 0ch;
+  
+  background: var(--color-current);
+  color:var( --color-background-oun);
+}
+
+.buttongalery-all{
+  width:74px ;
+  height:38px;
+  
+  padding:0px;
+  
+}
+.buttongalery-webisite{
+  width:125px ;
+  height:38px;
+ padding:0px;
+ 
+}
+.buttongalery-design{
+  width:104px ;
+  height:38px;
+  padding:0px;
+  
+}
+.buttongalery-application{
+  width:112px ;
+  height:38px;
+  padding:0px;
+  
+}
+.buttongalery-marketing{
+  width:130px ;
+  height:38px;
+  padding:0px;
+  
+}
+.block-galery{
+  outline: var(--border-block);
+  display: flex;
+}
+.list-type-galery{
+  list-style: none;
+  outline: var(--border-small-conteiner);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
 .block-footerGalery{
   background: var(--color-hero-bagraund);
   outline: var(--border-small-conteiner);
