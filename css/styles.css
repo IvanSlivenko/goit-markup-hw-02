@@ -556,9 +556,16 @@ margin-bottom:94px;
   font-style: normal;
   line-height: var(--lin-heit-two);
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .footer-item-two {
   color: rgba(100%, 100%, 100%, 60%);
+  
+}
+.footer-item-twostodio{
+  display: flex;
+  margin-top: 20px;
 }
 .footer-item-one:hover,
 .footer-item-two:hover,
@@ -587,6 +594,8 @@ margin-bottom:94px;
 .galery-blok {
   width: 370px;
   height: 404px;
+
+  
 }
 .galery-images {
   width: 370px;
@@ -696,6 +705,7 @@ justify-content: center;
   display: flex;
   margin-top: 94px;
   margin-bottom: 34px;
+  justify-content: center;
 }
 .button-listgalery{
   list-style: none;
@@ -777,9 +787,8 @@ justify-content: center;
 .list-type-galery{
   list-style: none;
   outline: var(--border-small-conteiner);
+
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 
   padding-left: 0px;
   padding-right: 0px;
@@ -787,17 +796,85 @@ justify-content: center;
   padding-bottom: 0px;
 
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 94px;
+
+  
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+
 
 }
+.block-galery-item{
+  outline: var(--border-big-conteiner);
+  /* margin-right: 30px;
+  margin-bottom:30px; */
+  flex-basis: calc((73% - 60px) / 3);
+}
 
+.block-galery-item:last-child{
+  
+  /* margin-right: 0px;
+  margin-bottom: 0px; */
+}
+
+.galery-title-box{
+  outline: var(--border-block);
+  /* display: flex; */
+  margin-left:24px;
+  margin-top: 20px;
+}
+.galery-Paragraf-box{
+  outline: var(--border-block);
+  
+  margin-left: 24px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+
+}
 .block-footerGalery{
   background: var(--color-hero-bagraund);
+
   outline: var(--border-small-conteiner);
 
   display: flex;
+  flex-direction: column;
+
 }
 .footer-galery{
   display: flex;
   
+}
+
+.addres-box{
+  outline: var(--border-block);
+display: flex;
+margin-left: 100px;
+}
+.nav-logo-leftgalery {
+  font-family: 'Raleway', sans-serif;
+
+  color:var(--color-current);
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  padding-top: 60px;
+  padding-bottom: 20px;
+
+  margin-left: 100px;
+}
+.footer-item-onegalery{
+ 
+}
+.footer-item-twogalery{
+margin-top: 9px;
+
+
+}
+.footer-item-frigalery{
+  display: flex;
+  margin-top: 9px;
 }
