@@ -10,10 +10,10 @@
   --color-button-cover:#188ECB;
   --color-our-teams: #F5F4FA;
   --color-our-teams-title:#212121;
-  --border-element:1px solid red ;
-  --border-small-conteiner:1px solid  #188ECB;
-  --border-big-conteiner:1px solid orangered;
-  --border-block:1px solid   yellowgreen;
+  --border-element:0px solid red ;
+  --border-small-conteiner:0px solid  #188ECB;
+  --border-big-conteiner:0px solid orangered;
+  --border-block:0px solid   yellowgreen;
   
  
 
